@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>디자이너 안예진 포트폴리오</title>
+  <title>JYP ENTERTAINMENT</title>
 
   <!-- 제이쿼리 불러오기 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -39,7 +39,7 @@
   <div class="site-wrap">
   <header class="top-bar">
     <div class="flex h-full">
-      <a class="flex items-center cursor-pointer relative" data-menuanchor="home" href="#home">
+      <a class="flex self-center cursor-pointer" data-menuanchor="home" href="#home">
         <img src="resource/img/logo_white.png" alt="로고" class="logo">
       </a>
 
