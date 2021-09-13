@@ -13,14 +13,14 @@
   font-style: normal;
 }
 
-/* 커서 */
+/* 커서 
 body {
   cursor: url(img/cursor.png), auto !important;
 }
 
 .cursor-pointer {
   cursor: url(img/cursor_2.png), auto !important;
-}
+} */
 
 /* 노말라이즈 */
 body,
@@ -49,8 +49,9 @@ a {
 /* 커스텀 */
 body {
   min-width: 1920px;
-  font-family: 'GmarketSansMedium';
   overflow-x:hidden;
+  height:500vh;
+  font-family: 'GmarketSansMedium';
 }
 
 /* 탑바 */
@@ -62,45 +63,95 @@ body {
   background-color:#081B2B;
   top: 0;
   left: 0;
-  padding: 0 150px;
-  padding-top: 20px;
-}
-
-.menu-1>li>a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding-right:50px;
-  font-size: 18px;
-  font-family: 'GmarketSansBold';
-  color: #fff;
-}
-
-.menu-2>li>a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding-right:10px;
-  font-size: 14px;
-  font-family: 'GmarketSansBold';
-  color: #fff;
+  padding: 0 320px;
 }
 
 .logo {
   height:50px;
 }
 
-.main-banner {
-  width:1920px;
-  height:800px;
-  margin-top:100px;
+.main-menu > li > a {
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'GmarketSansBold';
+  font-size: 18px;
+  color: #fff;
+  padding:0 40px;
 }
 
-.video > li {
-  width:1920px;
-  height:800px;
+.sub-menu {
+  display: none;
+}
+
+.sub-menu > li > a {
+  display: block;
+  padding:10px 30px;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #081B2B;
+}
+
+.sub-menu > li:hover > a {
+  background-color:#2897E9;
+}
+
+.site-menu {
+  margin-right:50px;
+}
+.site-menu > li > a {
+  display: block;
+  margin: 0 15px;
+}
+
+.site-menu > li > a > img.active {
+  display: none;
+}
+
+.lang-menu > li:first-child > a {
+  color:#2897E9;
+  font-weight: bold;
+}
+
+.lang-menu  > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: 'GmarketSansBold';
+  font-size: 14px;
+  color: #fff;
+  margin-left:10px;
 }
 
 /* 홈 */
+.main-banner {
+  margin-top:100px;
+}
+
+.swiper-slide {
+  width:1920px;
+  height:800px;
+  overflow: hidden;
+}
+
+.play-list {
+  width:1920px;
+  height:185px;
+  background-color: #081B2B;
+}
+
+.play-list .swiper-container {
+  margin:0 320px;
+}
+
+.play-list .swiper-slide {
+  height:185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

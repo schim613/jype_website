@@ -20,6 +20,11 @@
 
   <!-- 테일윈드 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.4/tailwind.min.css">
+  <!-- 테일윈드 치트시트 : https://nerdcave.com/tailwind-cheat-sheet -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- 스와이퍼 -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   <!--light box-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
@@ -37,56 +42,104 @@
 
 <body>
   <div class="site-wrap">
-  <header class="top-bar">
-    <div class="flex h-full">
-      <a class="flex self-center cursor-pointer" data-menuanchor="home" href="#home">
-        <img src="resource/img/logo_white.png" alt="로고" class="logo">
-      </a>
+    <header class="top-bar relative">
+      <div class="flex h-full">
+        <a class="flex self-center cursor-pointer" href="#">
+          <img src="resource/img/logo_white.png" alt="로고" class="logo">
+        </a>
 
-      <div class="flex-grow"></div>
+        <div class="flex-grow"></div>
 
-      <ul class="menu-1 flex items-center">
-        <li data-menuanchor="about-me">
-          <a href="#about-me" class="cursor-pointer">
-            <span>COMPANY</span>
-          </a>
-        </li>
-        <li data-menuanchor="portfolio">
-          <a href="#portfolio" class="cursor-pointer">
-            <span>ARTIST</span>
-          </a>
-        </li>
-        <li data-menuanchor="contact">
-          <a href="#contact" class="cursor-pointer">
-            <span>AUDITION</span>
-          </a>
-        </li>
-      </ul>
+        <ul class="main-menu h-full flex items-center">
+          <li>
+            <a href="#" class="cursor-pointer"><h1>COMPANY</h1>
+              <ul class="sub-menu absolute">
+                <li><a href="#">
+                  <h2>ABOUT JYP</h2>
+                </a></li>
+                <li><a href="#">
+                  <h2>HISTORY</h2>
+                </a></li>
+                <li><a href="#">
+                  <h2>NOTICE</h2>
+                </a></li>
+                <li><a href="#">
+                  <h2>RECRUIT</h2>
+                </a></li>
+                <li><a href="#">
+                  <h2>CSR</h2>
+                </a></li>
+                <li><a href="#">
+                  <h2>IR</h2>
+                </a></li>
+                <li><a href="#">
+                  <h2>CONTACT US</h2>
+                </a></li>
+              </ul>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer"><h1>ARTIST</h1>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer"><h1>AUDITION</h1>
+              
+            </a>
+          </li>
+        </ul>
 
-      <div class="flex-grow"></div>
+        <div class="flex-grow"></div>
+        
+        <ul class="site-menu h-full flex items-center">
+          <li>
+            <a href="#" class="cursor-pointer">
+              <img src="resource/img/youtube.png" alt="유튜브">
+              <img src="resource/img/youtube.active.png" alt="유튜브" class="active">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer">
+              <img src="resource/img/twitter.png" alt="트위터">
+              <img src="resource/img/twitter.active.png" alt="트위터" class="active">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer">
+              <img src="resource/img/facebook.png" alt="페이스북">
+              <img src="resource/img/facebook.active.png" alt="페이스북" class="active">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer">
+              <img src="resource/img/edm.png" alt="EDM">
+              <img src="resource/img/edm.active.png" alt="EDM" class="active">
+            </a>
+          </li>
+        </ul>
 
-      <ul class="menu-2 flex items-center">
-        <li data-menuanchor="about-me">
-          <a href="#about-me" class="cursor-pointer">
-            <span>KO</span>
-          </a>
-        </li>
-        <li data-menuanchor="portfolio">
-          <a href="#portfolio" class="cursor-pointer">
-            <span>EN</span>
-          </a>
-        </li>
-        <li data-menuanchor="contact">
-          <a href="#contact" class="cursor-pointer">
-            <span>CH</span>
-          </a>
-        </li>
-        <li data-menuanchor="contact">
-          <a href="#contact" class="cursor-pointer">
-            <span>JP</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
+        <ul class="lang-menu h-full flex items-center">
+          <li>
+            <a href="#" class="cursor-pointer">
+              KO
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer">
+              EN
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer">
+              CH
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cursor-pointer">
+              JP
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <main>
