@@ -94,25 +94,25 @@
         
         <ul class="site-menu h-full flex items-center">
           <li>
-            <a href="#" class="cursor-pointer">
+            <a href="https://www.youtube.com/user/jypentertainment" target="_blank" class="cursor-pointer">
               <img src="resource/img/youtube.png" alt="유튜브">
               <img src="resource/img/youtube.active.png" alt="유튜브" class="active">
             </a>
           </li>
           <li>
-            <a href="#" class="cursor-pointer">
+            <a href="https://twitter.com/jypnation" target="_blank" class="cursor-pointer">
               <img src="resource/img/twitter.png" alt="트위터">
               <img src="resource/img/twitter.active.png" alt="트위터" class="active">
             </a>
           </li>
           <li>
-            <a href="#" class="cursor-pointer">
+            <a href="https://www.facebook.com/jypnation" target="_blank" class="cursor-pointer">
               <img src="resource/img/facebook.png" alt="페이스북">
               <img src="resource/img/facebook.active.png" alt="페이스북" class="active">
             </a>
           </li>
           <li>
-            <a href="#" class="cursor-pointer">
+            <a href="https://edm-wish.jype.com/" target="_blank" class="cursor-pointer">
               <img src="resource/img/edm.png" alt="EDM">
               <img src="resource/img/edm.active.png" alt="EDM" class="active">
             </a>
