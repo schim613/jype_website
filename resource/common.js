@@ -13,11 +13,6 @@ function SliderBox1__init() {
       delay: 10000,
     },
 
-    // If we need pagination
-    pagination: {
-      el: '.slider-box-1 .swiper-pagination',
-    },
-
     // Navigation arrows
     navigation: {
       nextEl: '.slider-box-1 .swiper-button-next',
@@ -56,9 +51,10 @@ function SliderBox2__init() {
   var swiper = new Swiper(".slider-box-2 .swiper-container", {
     loop: true,
     slidesPerView: 5,
+    slidesPerGroup: 5,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
+      nextEl: ".play-list .play-list__btn-next",
+      prevEl: ".play-list .play-list__btn-prev"
     }
   });
 }

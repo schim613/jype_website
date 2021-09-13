@@ -8,7 +8,7 @@
     <li><a href="#"></a></li>
   </ul> -->
 
-  <div class="slider-box-1">
+  <div class="slider-box-1 mv-list">
     <!-- Slider main container -->
     <div class="swiper-container">
       <!-- Additional required wrapper -->
@@ -35,93 +35,85 @@
           </video>
         </div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
       <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>
   </div>
 </div>
-<div class="play-list">
-  <div class="slider-box-2">
-    <!-- Slider main container -->
-    <div class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/EaswWiwMVs8" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/XA2YEHn-A8Q" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/N2p__-LRBNc" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/-6aVQrzja9U" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/M7lIml8-eHU" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/_ysomCGaZLw" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/HwcCBnfhsR4" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/z1gxHexN5DI" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/CM4CkVFmTds" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/X-uJtV8ScYk" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="swiper-slide">
-          <iframe width="240" height="134" src="https://www.youtube.com/embed/_ysomCGaZLw" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
+
+<div class="slider-box-2 play-list">
+  <!-- Slider main container -->
+  <div class="swiper-container relative">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/EaswWiwMVs8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/XA2YEHn-A8Q" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/N2p__-LRBNc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/-6aVQrzja9U" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/M7lIml8-eHU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/_ysomCGaZLw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/HwcCBnfhsR4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/z1gxHexN5DI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/CM4CkVFmTds" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe width="240" height="134" src="https://www.youtube.com/embed/X-uJtV8ScYk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
     </div>
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="play-list__nav">
+    <div class="play-list__btn-prev"></div>
+    <div class="play-list__btn-next"></div>
   </div>
 </div>
 <?php require_once "foot.php"; ?>
