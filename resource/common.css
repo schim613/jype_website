@@ -117,6 +117,14 @@ main {
   display: none;
 }
 
+.site-menu > li:hover > a > img.active {
+  display: block;
+}
+
+.site-menu > li:hover > a > img {
+  display: none;
+}
+
 .lang-menu > li:first-child > a {
   color:#2897E9;
   font-weight: bold;

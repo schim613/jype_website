@@ -53,40 +53,22 @@
 
         <ul class="main-menu h-full flex items-center">
           <li>
-            <a href="#" class="cursor-pointer"><h1>COMPANY</h1>
+            <a href="#" class="block cursor-pointer"><h1>COMPANY</h1></a>
               <ul class="sub-menu absolute">
-                <li><a href="#">
-                  <h2>ABOUT JYP</h2>
-                </a></li>
-                <li><a href="#">
-                  <h2>HISTORY</h2>
-                </a></li>
-                <li><a href="#">
-                  <h2>NOTICE</h2>
-                </a></li>
-                <li><a href="#">
-                  <h2>RECRUIT</h2>
-                </a></li>
-                <li><a href="#">
-                  <h2>CSR</h2>
-                </a></li>
-                <li><a href="#">
-                  <h2>IR</h2>
-                </a></li>
-                <li><a href="#">
-                  <h2>CONTACT US</h2>
-                </a></li>
+                <li><a href="#" class="block cursor-pointer"><h2>ABOUT JYP</h2></a></li>
+                <li><a href="#" class="block cursor-pointer"><h2>HISTORY</h2></a></li>
+                <li><a href="#" class="block cursor-pointer"><h2>NOTICE</h2></a></li>
+                <li><a href="#" class="block cursor-pointer"><h2>RECRUIT</h2></a></li>
+                <li><a href="#" class="block cursor-pointer"><h2>CSR</h2></a></li>
+                <li><a href="#" class="block cursor-pointer"><h2>IR</h2></a></li>
+                <li><a href="#" class="block cursor-pointer"><h2>CONTACT US</h2></a></li>
               </ul>
-            </a>
           </li>
           <li>
-            <a href="#" class="cursor-pointer"><h1>ARTIST</h1>
-            </a>
+            <a href="#" class="block cursor-pointer"><h1>ARTIST</h1></a>
           </li>
           <li>
-            <a href="#" class="cursor-pointer"><h1>AUDITION</h1>
-              
-            </a>
+            <a href="#" class="block cursor-pointer"><h1>AUDITION</h1></a>
           </li>
         </ul>
 

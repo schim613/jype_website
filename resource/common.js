@@ -23,6 +23,7 @@ function SliderBox1__init() {
 
 SliderBox1__init();
 
+
 // 메인메뉴 호버시 서브메뉴 노출
 $('.main-menu > li').mouseenter(function(){
   $(this).find('.sub-menu').stop().slideDown(300);
@@ -31,20 +32,6 @@ $('.main-menu > li').mouseleave(function(){
   $(this).find('.sub-menu').stop().slideUp(300);
 });
 
-// 사이트메뉴 호버시 컬러버전 노출
-function SiteMenu__init(){
-  $('.site-menu > li > a > img').mouseenter(function(){
-    $(this).addClass("active").siblings().removeClass("active");
-    return false
-  });
-  
-  $('.site-menu > li > a > img').mouseleave(function(){
-    $(this).removeClass("active").siblings().addClass("active");
-    return false
-  });
-}
-
-SiteMenu__init();
 
 // 유튜브 플레이리스트
 function SliderBox2__init() {
