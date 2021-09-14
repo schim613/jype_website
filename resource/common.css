@@ -50,8 +50,13 @@ a {
 body {
   min-width: 1920px;
   overflow-x:hidden;
-  height:500vh;
+  width:100vw;
+  height:100vh;
   font-family: 'GmarketSansMedium';
+}
+
+main {
+  overflow: hidden;
 }
 
 /* 탑바 */
@@ -129,9 +134,6 @@ body {
 }
 
 /* 홈 */
-.main-banner {
-  margin-top:100px;
-}
 
 .swiper-slide {
   width:1920px;
@@ -156,17 +158,17 @@ body {
 
 .play-list {
   width:1920px;
-  height:185px;
+  height:180px;
   background-color: #081B2B;
   position: relative;
 }
 
 .play-list .swiper-container {
-  margin:0 320px;
+  margin:0 390px;
 }
 
 .play-list .swiper-slide {
-  height:185px;
+  height:170px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,13 +185,13 @@ body {
 .play-list__btn-prev {
   background-image: url(img/btn_prev.png);
   top:50%;
-  left:280px;
+  left:320px;
   transform:translateY(-50%);
 }
 
 .play-list__btn-next {
   background-image: url(img/btn_next.png);
   top:50%;
-  right:280px;
+  right:320px;
   transform:translateY(-50%);
 }

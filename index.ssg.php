@@ -15,23 +15,18 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-          <video height="800" autoplay loop muted>
+          <video width="1920" height="700" autoplay loop muted>
             <source src="resource/img/StrayKids_소리꾼_MV.mp4" type="video/mp4">
           </video>
         </div>
         <div class="swiper-slide">
-          <video height="800" autoplay loop muted>
+          <video width="1920" height="700" autoplay loop muted>
             <source src="resource/img/TWICE_Alcohol-Free_MV.mp4" type="video/mp4">
           </video>
         </div>
         <div class="swiper-slide">
-          <video height="800" autoplay loop muted>
-            <source src="resource/img/StrayKids_소리꾼_MV.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="swiper-slide">
-          <video height="800" autoplay loop muted>
-            <source src="resource/img/TWICE_Alcohol-Free_MV.mp4" type="video/mp4">
+          <video width="1920" height="700" autoplay loop muted>
+            <source src="resource/img/ITZY_마.피.아. In the morning_MV.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -49,61 +44,61 @@
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/EaswWiwMVs8" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/EaswWiwMVs8" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/XA2YEHn-A8Q" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/XA2YEHn-A8Q" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/N2p__-LRBNc" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/N2p__-LRBNc" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/-6aVQrzja9U" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/-6aVQrzja9U" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/M7lIml8-eHU" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/M7lIml8-eHU" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/_ysomCGaZLw" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/_ysomCGaZLw" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/HwcCBnfhsR4" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/HwcCBnfhsR4" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/z1gxHexN5DI" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/z1gxHexN5DI" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/CM4CkVFmTds" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/CM4CkVFmTds" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="swiper-slide">
-        <iframe width="240" height="134" src="https://www.youtube.com/embed/X-uJtV8ScYk" title="YouTube video player"
+        <iframe width="212" height="118" src="https://www.youtube.com/embed/X-uJtV8ScYk" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
