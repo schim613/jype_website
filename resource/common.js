@@ -10,7 +10,7 @@ function SliderBox1__init() {
     // Optional parameters
     loop: true,
     autoplay: {
-      delay: 10000,
+      delay: 5000,
     },
 
     // Navigation arrows

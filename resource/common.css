@@ -55,10 +55,6 @@ body {
   font-family: 'GmarketSansMedium';
 }
 
-main {
-  overflow: hidden;
-}
-
 /* 탑바 */
 .top-bar {
   position: fixed;
@@ -146,7 +142,7 @@ main {
 .swiper-slide {
   width:1920px;
   height:800px;
-  overflow: hidden;
+  margin-top:100px;
 }
 
 .mv-list .swiper-button-prev,
@@ -164,19 +160,25 @@ main {
   margin-right:260px;
 }
 
+/* 유튜브 플레이 리스트 */
 .play-list {
   width:1920px;
-  height:180px;
-  background-color: #081B2B;
+  height:150px;
+  background-color: rgba(8, 27, 43, 0.5);
+  margin-top:-150px;
   position: relative;
+  z-index: 10;
 }
 
 .play-list .swiper-container {
   margin:0 390px;
+  height:150px;
 }
 
 .play-list .swiper-slide {
-  height:170px;
+  height: 150px;
+  top:-100px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;

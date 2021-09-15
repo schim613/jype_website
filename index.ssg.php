@@ -15,19 +15,19 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-          <video width="1920" height="700" autoplay loop muted>
-            <source src="resource/img/StrayKids_소리꾼_MV.mp4" type="video/mp4">
-          </video>
+          <a href="#">
+            <img src="resource/img/img_skz.png" alt="">
+          </a>
         </div>
         <div class="swiper-slide">
-          <video width="1920" height="700" autoplay loop muted>
-            <source src="resource/img/TWICE_Alcohol-Free_MV.mp4" type="video/mp4">
-          </video>
+          <a href="#">
+            <img src="resource/img/img_twice.png" alt="">
+          </a>
         </div>
         <div class="swiper-slide">
-          <video width="1920" height="700" autoplay loop muted>
-            <source src="resource/img/ITZY_마.피.아. In the morning_MV.mp4" type="video/mp4">
-          </video>
+          <a href="#">
+            <img src="resource/img/img_itzy.png" alt="">
+          </a>
         </div>
       </div>
       <!-- If we need navigation buttons -->
@@ -39,9 +39,9 @@
 
 <div class="slider-box-2 play-list">
   <!-- Slider main container -->
-  <div class="swiper-container relative">
+  <div class="swiper-container">
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper flex">
       <!-- Slides -->
       <div class="swiper-slide">
         <iframe width="212" height="118" src="https://www.youtube.com/embed/EaswWiwMVs8" title="YouTube video player"

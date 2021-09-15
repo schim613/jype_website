@@ -100,29 +100,6 @@
             </a>
           </li>
         </ul>
-
-        <ul class="lang-menu h-full flex items-center">
-          <li>
-            <a href="#" class="cursor-pointer">
-              KO
-            </a>
-          </li>
-          <li>
-            <a href="#" class="cursor-pointer">
-              EN
-            </a>
-          </li>
-          <li>
-            <a href="#" class="cursor-pointer">
-              CH
-            </a>
-          </li>
-          <li>
-            <a href="#" class="cursor-pointer">
-              JP
-            </a>
-          </li>
-        </ul>
       </div>
     </header>
     <main>
