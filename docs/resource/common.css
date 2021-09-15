@@ -71,6 +71,10 @@ body {
   height:50px;
 }
 
+.main-menu > li {
+  position:relative;
+}
+
 .main-menu > li > a {
   height:100px;
   display: flex;
@@ -79,16 +83,17 @@ body {
   font-family: 'GmarketSansBold';
   font-size: 18px;
   color: #fff;
-  padding:0 40px;
+  padding:0 50px;
 }
 
 .sub-menu {
+  width:100%;
   display: none;
 }
 
 .sub-menu > li > a {
   display: block;
-  padding:10px 30px;
+  padding:10px 0;
   font-size: 16px;
   color: #fff;
   display: flex;
@@ -138,24 +143,23 @@ body {
 }
 
 /* 홈 */
-
-.swiper-slide {
+.img-list .swiper-slide {
   width:1920px;
   height:800px;
   margin-top:100px;
 }
 
-.mv-list .swiper-button-prev,
-.mv-list .swiper-button-next {
+.img-list .swiper-button-prev,
+.img-list .swiper-button-next {
   color:#fff;
 }
 
-.mv-list .swiper-button-prev {
+.img-list .swiper-button-prev {
   background: url(resource/img/btn_prev.png);
   margin-left:260px;
 }
 
-.mv-list .swiper-button-next {
+.img-list .swiper-button-next {
   background-image: url(resource/img/btn_next.png);
   margin-right:260px;
 }
@@ -164,7 +168,13 @@ body {
 .play-list {
   width:1920px;
   height:150px;
-  background-color: rgba(8, 27, 43, 0.5);
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 20, 20, 0) 20%,
+    rgba(20, 20, 20, 0.25) 50%,
+    rgba(20, 20, 20, 0.5) 75%,
+    rgba(20, 20, 20, 0.75) 100%
+  );
   margin-top:-150px;
   position: relative;
   z-index: 10;
@@ -176,9 +186,6 @@ body {
 }
 
 .play-list .swiper-slide {
-  height: 150px;
-  top:-100px;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;

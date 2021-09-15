@@ -8,7 +8,7 @@
     <li><a href="#"></a></li>
   </ul> -->
 
-  <div class="slider-box-1 mv-list">
+  <div class="slider-box-1 img-list">
     <!-- Slider main container -->
     <div class="swiper-container">
       <!-- Additional required wrapper -->
@@ -22,6 +22,11 @@
         <div class="swiper-slide">
           <a href="#">
             <img src="resource/img/img_twice.png" alt="">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="resource/img/img_day6.png" alt="">
           </a>
         </div>
         <div class="swiper-slide">
