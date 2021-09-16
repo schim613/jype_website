@@ -27,11 +27,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js">
 
-  <!--light box-->
+  <!-- light box -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 
-  <!--sticker-->
+  <!-- sticker -->
   <script src="resource/sticker.min.js"></script>
 
   <!-- 사이트 공통 JS -->
@@ -42,10 +42,9 @@
 </head>
 
 <body>
-  <div class="site-wrap">
     <header class="top-bar relative">
       <div class="flex h-full">
-        <a class="flex self-center cursor-pointer" href="#">
+        <a class="flex self-center cursor-pointer" href="index.ssg.php">
           <img src="resource/img/logo_white.png" alt="로고" class="logo">
         </a>
 
@@ -65,7 +64,7 @@
               </ul>
           </li>
           <li>
-            <a href="#" class="block cursor-pointer">ARTIST</a>
+            <a href="artist.ssg.php" class="block cursor-pointer">ARTIST</a>
           </li>
           <li>
             <a href="#" class="block cursor-pointer">AUDITION</a>
