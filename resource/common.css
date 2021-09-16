@@ -1,16 +1,7 @@
 /* 폰트 */
 @font-face {
-  font-family: 'GmarketSansBold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'BebasNeue-Regular';
+  src: url('BebasNeue-Regular.woff') format('woff')
 }
 
 /* 커서 
@@ -42,8 +33,9 @@ a {
   width: 100%;
 }
 
-.section-item {
-  position: absolute;
+.site-wrap {
+  width:1280px;
+  margin:0 auto;
 }
 
 /* 커스텀 */
@@ -52,7 +44,7 @@ body {
   overflow-x:hidden;
   width:100vw;
   height:100vh;
-  font-family: 'GmarketSansMedium';
+  font-family: 'BebasNeue-Regular';
 }
 
 /* 탑바 */
@@ -80,8 +72,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'GmarketSansBold';
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
   padding:0 50px;
 }
@@ -94,7 +85,7 @@ body {
 .sub-menu > li > a {
   display: block;
   padding:10px 0;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -136,7 +127,6 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  font-family: 'GmarketSansBold';
   font-size: 14px;
   color: #fff;
   margin-left:10px;
@@ -211,4 +201,27 @@ body {
   top:50%;
   right:320px;
   transform:translateY(-50%);
+}
+
+/* 서브페이지-아티스트 */
+.artist__top {
+  margin-top:250px;
+}
+
+.artist__title {
+  font-size: 40px;
+  margin-top:20px;
+}
+
+.artist__list {
+  margin-top: 100px;
+}
+
+.artist__list img {
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.artist__list img {
+  margin-right:20px;
 }
