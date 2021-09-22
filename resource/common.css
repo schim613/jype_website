@@ -4,6 +4,12 @@
   src: url('BebasNeue-Regular.woff') format('woff')
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
 /* 커서 
 body {
   cursor: url(img/cursor.png), auto !important;
@@ -34,7 +40,7 @@ a {
 }
 
 .site-wrap {
-  width:1280px;
+  width:1140px;
   margin:0 auto;
 }
 
@@ -53,14 +59,33 @@ body {
   z-index: 100;
   width: 1920px;
   height: 100px;
-  background-color:#081B2B;
   top: 0;
   left: 0;
   padding: 0 320px;
 }
 
+.top-bar:hover {
+  background-color: #081B2B;
+}
+
 .logo {
   height:50px;
+}
+
+.logo.active {
+  display: none;
+}
+
+.top-bar .logo.active{
+  display: none;
+}
+
+.top-bar > div > a:hover > .logo.active{
+  display: block;
+}
+
+.top-bar > div > a:hover > .logo{
+  display: none;
 }
 
 .main-menu > li {
@@ -136,7 +161,6 @@ body {
 .img-list .swiper-slide {
   width:1920px;
   height:869px;
-  margin-top:100px;
 }
 
 .img-list .swiper-button-prev,
@@ -154,74 +178,98 @@ body {
   margin-right:260px;
 }
 
-/* 유튜브 플레이 리스트 */
-.play-list {
+.img-list .img-gd {
   width:1920px;
-  height:150px;
+  height:869px;
+  position: absolute;
+  top:0;
+  left:0;
   background: linear-gradient(
     to bottom,
-    rgba(20, 20, 20, 0) 20%,
-    rgba(20, 20, 20, 0.25) 50%,
-    rgba(20, 20, 20, 0.5) 75%,
-    rgba(20, 20, 20, 0.75) 100%
+    rgba(20, 20, 20, 0.6) 0%,
+    rgba(20, 20, 20, 0.2) 20%,
+    rgba(20, 20, 20, 0) 60%,
+    rgba(20, 20, 20, 0.2) 80%,
+    rgba(20, 20, 20, 0.6) 100%
   );
-  margin-top:-150px;
-  position: relative;
-  z-index: 10;
-}
-
-.play-list .swiper-container {
-  margin:0 390px;
-  height:150px;
-}
-
-.play-list .swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.play-list .play-list__btn-prev,
-.play-list .play-list__btn-next {
-  position: absolute;
-  width:30px;
-  height: 30px;
-  background-size: contain;
-}
-
-.play-list__btn-prev {
-  background-image: url(img/btn_prev.png);
-  top:50%;
-  left:320px;
-  transform:translateY(-50%);
-}
-
-.play-list__btn-next {
-  background-image: url(img/btn_next.png);
-  top:50%;
-  right:320px;
-  transform:translateY(-50%);
 }
 
 /* 서브페이지-아티스트 */
-.artist__top {
-  margin-top:250px;
+.artist__bg {
+  margin-top:150px;
+  background-image: url(img/artist_title.png);
+  width: 624px;
+  height: 234px;
+  background-size: contain;
 }
 
 .artist__title {
   font-size: 40px;
-  margin-top:20px;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .artist__list {
   margin-top: 100px;
 }
 
-.artist__list img {
+.artist__list a {
+  display: block;
   height: 300px;
   margin-bottom: 20px;
+  margin-right:20px;
 }
 
-.artist__list img {
-  margin-right:20px;
+.artist__list .bg {
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  background-color: rgba(20, 20, 20, 0.4);
+  opacity: 0;
+}
+
+.artist__list .bg:hover {
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.artist__list .bg .name {
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  
+}
+/* 서브페이지-아티스트-스키즈*/
+.artist__img {
+  margin-top:-220px;
+  width: 450px;
+  height: 450px;
+  animation: rotate_image 15s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+100% {
+    transform: rotate(360deg);
+  }
+}
+
+.artist_content > div {
+  margin-top: 100px;
+}
+
+.artist_content > div > div {
+  font-family: 'Noto Sans KR';
+  font-size:18px;
+  line-height: 30px;
+}
+
+.artist_content > div > div:first-child {
+  font-size:40px;
+  font-family: 'BebasNeue-Regular';
+  padding-bottom:30px;
 }
