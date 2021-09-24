@@ -104,6 +104,7 @@ body {
   top: 0;
   left: 0;
   padding: 0 320px;
+  color: #fff;
 }
 
 .sub-page__top-bar {
@@ -144,7 +145,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  color: #fff;
   padding:0 50px;
 }
 
@@ -157,7 +157,6 @@ body {
   display: block;
   padding:10px 0;
   font-size: 20px;
-  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,12 +167,9 @@ body {
   background-color:#2897E9;
 }
 
-.site-menu {
-  margin-right:50px;
-}
 .site-menu > li > a {
   display: block;
-  margin: 0 15px;
+  margin-left:30px;
 }
 
 .site-menu > li > a > img.active {
@@ -367,3 +363,23 @@ body {
 }
 
 /* 푸터 */
+
+.bottom-bar {
+  position: fixed;
+  z-index: 100;
+  width: 1920px;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  padding: 0 320px;
+  color:#fff;
+}
+
+.bottom-bar ul > li > a {
+  display: block;
+  margin-right: 30px;
+}
+
+.sub-page__bottom-bar {
+  background-color: #081B2B;
+}
