@@ -26,8 +26,8 @@
   <!-- 스와이퍼 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js">
-
-  <!-- light box -->
+    <!-- light box 
+    -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 
@@ -42,63 +42,63 @@
 </head>
 
 <body>
-    <header class="top-bar relative">
-      <div class="wrap flex h-full">
-        <a class="flex self-center cursor-pointer" href="index.ssg.php">
-          <img src="resource/img/logo.png" alt="로고" class="logo">
-          <img src="resource/img/logo.active.png" alt="로고" class="logo active">
-        </a>
+  <header class="top-bar relative <?=$pagecode == "home" ? "" : "sub-page__top-bar"?>">
+    <div class="wrap flex h-full">
+      <a class="flex self-center cursor-pointer" href="index.ssg.php">
+        <img src="resource/img/logo.png" alt="로고" class="logo">
+        <img src="resource/img/logo.active.png" alt="로고" class="logo active">
+      </a>
 
-        <div class="flex-grow"></div>
+      <div class="flex-grow"></div>
 
-        <ul class="main-menu h-full flex items-center">
-          <li>
-            <a href="#" class="block cursor-pointer">COMPANY</a>
-              <ul class="sub-menu absolute">
-                <li><a href="#" class="block cursor-pointer">ABOUT JYP</a></li>
-                <li><a href="#" class="block cursor-pointer">HISTORY</a></li>
-                <li><a href="#" class="block cursor-pointer">NOTICE</a></li>
-                <li><a href="#" class="block cursor-pointer">RECRUIT</a></li>
-                <li><a href="#" class="block cursor-pointer">CS</a></li>
-                <li><a href="#" class="block cursor-pointer">IR</a></li>
-                <li><a href="#" class="block cursor-pointer">CONTACT US</a></li>
-              </ul>
-          </li>
-          <li>
-            <a href="artist.ssg.php" class="block cursor-pointer">ARTIST</a>
-          </li>
-          <li>
-            <a href="#" class="block cursor-pointer">AUDITION</a>
-          </li>
-        </ul>
+      <ul class="main-menu h-full flex items-center">
+        <li>
+          <a href="#" class="block cursor-pointer">COMPANY</a>
+          <ul class="sub-menu absolute">
+            <li><a href="#" class="block cursor-pointer">ABOUT JYP</a></li>
+            <li><a href="#" class="block cursor-pointer">HISTORY</a></li>
+            <li><a href="#" class="block cursor-pointer">NOTICE</a></li>
+            <li><a href="#" class="block cursor-pointer">RECRUIT</a></li>
+            <li><a href="#" class="block cursor-pointer">CS</a></li>
+            <li><a href="#" class="block cursor-pointer">IR</a></li>
+            <li><a href="#" class="block cursor-pointer">CONTACT US</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="artist.ssg.php" class="block cursor-pointer">ARTIST</a>
+        </li>
+        <li>
+          <a href="#" class="block cursor-pointer">AUDITION</a>
+        </li>
+      </ul>
 
-        <div class="flex-grow"></div>
-        
-        <ul class="site-menu h-full flex items-center">
-          <li>
-            <a href="https://www.youtube.com/user/jypentertainment" target="_blank" class="cursor-pointer">
-              <img src="resource/img/youtube.png" alt="유튜브">
-              <img src="resource/img/youtube.active.png" alt="유튜브" class="active">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/jypnation" target="_blank" class="cursor-pointer">
-              <img src="resource/img/twitter.png" alt="트위터">
-              <img src="resource/img/twitter.active.png" alt="트위터" class="active">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/jypnation" target="_blank" class="cursor-pointer">
-              <img src="resource/img/facebook.png" alt="페이스북">
-              <img src="resource/img/facebook.active.png" alt="페이스북" class="active">
-            </a>
-          </li>
-          <li>
-            <a href="https://edm-wish.jype.com/" target="_blank" class="cursor-pointer">
-              <img src="resource/img/edm.png" alt="EDM">
-              <img src="resource/img/edm.active.png" alt="EDM" class="active">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </header>
+      <div class="flex-grow"></div>
+
+      <ul class="site-menu h-full flex items-center">
+        <li>
+          <a href="https://www.youtube.com/user/jypentertainment" target="_blank" class="cursor-pointer">
+            <img src="resource/img/youtube.png" alt="유튜브">
+            <img src="resource/img/youtube.active.png" alt="유튜브" class="active">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/jypnation" target="_blank" class="cursor-pointer">
+            <img src="resource/img/twitter.png" alt="트위터">
+            <img src="resource/img/twitter.active.png" alt="트위터" class="active">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/jypnation" target="_blank" class="cursor-pointer">
+            <img src="resource/img/facebook.png" alt="페이스북">
+            <img src="resource/img/facebook.active.png" alt="페이스북" class="active">
+          </a>
+        </li>
+        <li>
+          <a href="https://edm-wish.jype.com/" target="_blank" class="cursor-pointer">
+            <img src="resource/img/edm.png" alt="EDM">
+            <img src="resource/img/edm.active.png" alt="EDM" class="active">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>

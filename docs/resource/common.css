@@ -106,6 +106,10 @@ body {
   padding: 0 320px;
 }
 
+.sub-page__top-bar {
+  background-color: #081B2B;
+}
+
 .top-bar:hover {
   background-color: #081B2B;
 }
@@ -212,12 +216,12 @@ body {
 
 .img-list .swiper-button-prev {
   background: url(resource/img/btn_prev.png);
-  margin-left:260px;
+  margin-left:200px;
 }
 
 .img-list .swiper-button-next {
   background-image: url(resource/img/btn_next.png);
-  margin-right:260px;
+  margin-right:200px;
 }
 
 .img-list .img-gd {
@@ -241,6 +245,44 @@ body {
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
+}
+
+.img-list .img-title {
+  position: absolute;
+  z-index: 100;
+  color:#000;
+  top:370px;
+  left:320px;
+}
+
+.t1 {
+  font-size: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  letter-spacing:-2px;
+  margin-bottom: 20px;
+}
+
+.t2 {
+  font-size: 40px;
+  margin-bottom: 60px;
+  letter-spacing:2px;
+}
+
+.t3 {
+  font-size: 20px;
+  border: 1px solid #000;
+  width:200px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .3s, color .3s;
+}
+
+.t3:hover {
+  background-color: #081B2B;
+  color:#fff;
 }
 
 /* 서브페이지-아티스트 */
@@ -293,7 +335,7 @@ body {
   font-size: 30px;
 }
 
-/* 서브페이지-아티스트-스키즈*/
+/* 서브페이지-아티스트-스키즈 */
 .artist__img {
   margin-top:-220px;
   width: 450px;
@@ -323,3 +365,5 @@ body {
   font-size:40px;
   padding-bottom:30px;
 }
+
+/* 푸터 */
