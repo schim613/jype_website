@@ -1,8 +1,49 @@
 /* 폰트 */
-@font-face {
-  font-family: 'BebasNeue-Regular';
-  src: url('BebasNeue-Regular.woff') format('woff')
-}
+  @font-face {
+  font-family: 'Bebas Neue Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue Regular'), url('BebasNeue Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+    }
+    
+
+  @font-face {
+  font-family: 'Bebas Neue Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue Book'), url('BebasNeue Book.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bebas Neue Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue Thin'), url('BebasNeue Thin.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bebas Neue Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue Light'), url('BebasNeue Light.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bebas Neue Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue Bold'), url('BebasNeue Bold.woff') format('woff');
+  }
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
@@ -50,7 +91,8 @@ body {
   overflow-x:hidden;
   width:100vw;
   height:100vh;
-  font-family: 'BebasNeue-Regular';
+  font-family: 'Bebas Neue Regular';
+  letter-spacing: 1px;
 }
 
 /* 탑바 */
@@ -160,7 +202,7 @@ body {
 /* 홈 */
 .img-list .swiper-slide {
   width:1920px;
-  height:869px;
+  height:969px;
 }
 
 .img-list .swiper-button-prev,
@@ -180,7 +222,7 @@ body {
 
 .img-list .img-gd {
   width:1920px;
-  height:869px;
+  height:969px;
   position: absolute;
   top:0;
   left:0;
@@ -194,6 +236,13 @@ body {
   );
 }
 
+.img-list .btn_play {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
 /* 서브페이지-아티스트 */
 .artist__bg {
   margin-top:150px;
@@ -204,6 +253,7 @@ body {
 }
 
 .artist__title {
+  font-family: 'Bebas Neue';
   font-size: 40px;
   top:50%;
   left: 50%;
@@ -241,8 +291,8 @@ body {
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 30px;
-  
 }
+
 /* 서브페이지-아티스트-스키즈*/
 .artist__img {
   margin-top:-220px;
@@ -269,7 +319,7 @@ body {
 }
 
 .artist_content > div > div:first-child {
+  font-family: 'Bebas Neue';
   font-size:40px;
-  font-family: 'BebasNeue-Regular';
   padding-bottom:30px;
 }
