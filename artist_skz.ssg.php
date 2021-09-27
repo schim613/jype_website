@@ -19,6 +19,23 @@
       </div>
       <div class="con-2">
         <div>RELEASES</div>
+        <ul class="release flex">
+          <li><a href="#">
+            <img src="resource/img/album-1.png" alt="">
+          </a></li>
+          <li><a href="#">
+            <img src="resource/img/album-2.png" alt="">
+          </a></li>
+          <li><a href="#">
+            <img src="resource/img/album-3.png" alt="">
+          </a></li>
+          <li><a href="#">
+            <img src="resource/img/album-4.png" alt="">
+          </a></li>
+          <li><a href="#">
+            <img src="resource/img/album-5.png" alt="">
+          </a></li>
+        </ul>
       </div>
     </div>
   </div>
