@@ -81,7 +81,7 @@ a {
 }
 
 .site-wrap {
-  width:1140px;
+  width:1280px;
   margin:0 auto;
 }
 
@@ -357,21 +357,25 @@ body {
   line-height: 30px;
 }
 
+.member-list > li > a:not(:last-child) {
+  margin-right:40px;
+}
+
 .artist_content > div > div:first-child {
   font-family: 'Bebas Neue';
   font-size:40px;
   padding-bottom:30px;
 }
 
-.con-2 {
+.con-3 {
   margin-bottom: 200px;
 }
 
-.release > li:not(:last-child) {
-  margin-right:12px;
+.release-list > li:not(:last-child) {
+  margin-right:20px;
 }
-/* 푸터 */
 
+/* 푸터 */
 .bottom-bar {
   position: fixed;
   z-index: 100;
