@@ -47,11 +47,15 @@
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+/*
 .notosanskr * { 
  font-family: 'Noto Sans KR', sans-serif;
 }
+*/
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
 
-/* 커서 
+
+/* 커서 */
 body {
   cursor: url(img/cursor.png), auto !important;
 }
@@ -253,7 +257,7 @@ body {
 
 .t1 {
   font-size: 40px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   letter-spacing:-2px;
   margin-bottom: 20px;
@@ -348,13 +352,21 @@ body {
 }
 
 .artist_content > div {
-  margin-top: 100px;
+  margin-top:120px;
+}
+
+.artist_content > div:last-child {
+  margin-bottom: 200px;
 }
 
 .artist_content > div > div {
-  font-family: 'Noto Sans KR';
+  font-family: 'Roboto', sans-serif;
   font-size:18px;
   line-height: 30px;
+}
+
+.member-list{
+  font-family: 'Roboto', sans-serif;
 }
 
 .member-list > li > a:not(:last-child) {
@@ -364,16 +376,58 @@ body {
 .artist_content > div > div:first-child {
   font-family: 'Bebas Neue';
   font-size:40px;
-  padding-bottom:30px;
+  padding-bottom:40px;
 }
 
-.con-3 {
-  margin-bottom: 200px;
-}
 
 .release-list > li:not(:last-child) {
   margin-right:20px;
 }
+
+.con-4 > div {
+  width:290px;
+}
+
+.con-4 > ul {
+  width: 990px;
+  border-width: 2px 0 2px 0;
+  border-style: solid;
+  border-color: #000;
+}
+
+.con-4 > ul > li {
+  height: 110px;
+}
+
+.con-4 > ul > li:not(:last-child){
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #000;
+}
+
+.notice-list {
+  font-family: 'Roboto', sans-serif;
+}
+
+.notice-list > li {
+  display: flex;
+  align-items: center;
+}
+
+.notice-list div {
+  margin-left: 40px;
+}
+
+.notice-list div > span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.notice-list div > span:first-child {
+  margin-right: 148px;
+  margin-bottom: 32px;
+}
+
 
 /* 푸터 */
 .bottom-bar {

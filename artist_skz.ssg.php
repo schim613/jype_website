@@ -16,57 +16,57 @@
           <li>
             <a href="#">
               <img src="resource/img/profile_bangchan.png" alt="">
-              <span>BANG CHAN</span>
-              <span>방찬</span>
+              <div>BANG CHAN</div>
+              <div>방찬</div>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="resource/img/profile_leeknow.png" alt="">
-              <span>lee know</span>
-              <span>리노</span>
+              <div>LEE KNOW</div>
+              <div>리노</div>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="resource/img/profile_changbin.png" alt="">
-              <span>changbin</span>
-              <span>창빈</span>
+              <div>CHANBIN</div>
+              <div>창빈</div>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="resource/img/profile_hyunjin.png" alt="">
-              <span>hyunjin</span>
-              <span>현진</span>
+              <div>HYUNJIN</div>
+              <div>현진</div>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="resource/img/profile_han.png" alt="">
-              <span>han</span>
-              <span>한</span>
+              <div>HAN</div>
+              <div>한</div>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="resource/img/profile_felix.png" alt="">
-              <span>felix</span>
-              <span>필릭스</span>
+              <div>FELIX</div>
+              <div>필릭스</div>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="resource/img/profile_seungmin.png" alt="">
-              <span>seungmin</span>
-              <span>승민</span>
+              <div>SEUNGMIN</div>
+              <div>승민</div>
             </a>
           </li>
           <li>
             <a href="#">
               <img src="resource/img/profile_in.png" alt="">
-              <span>i.n</span>
-              <span>아이엔</span>
+              <div>I.N</div>
+              <div>아이엔</div>
             </a>
           </li>
         </ul>
@@ -107,6 +107,46 @@
             </a></li>
           <li><a href="#">
               <img src="resource/img/album-5.png" alt="">
+            </a></li>
+        </ul>
+      </div>
+      <div class="con-4 flex">
+        <div>NOTICE</div>
+        <ul class="notice-list">
+          <li><a href="#">
+              <div>
+                <span>456</span>
+                <span>Stray Kids(스트레이 키즈) "DOMINO" (Feat. STAY) Guide Image</span>
+              </div>
+              <div>2021-09-24</div>
+            </a></li>
+          <li><a href="#">
+              <div>
+                <span>455</span>
+                <span>HAPPY BIRTHDAY SEUNGMIN</span>
+              </div>
+              <div>2021-09-22</div>
+            </a></li>
+          <li><a href="#">
+              <div>
+                <span>454</span>
+                <span>HAPPY BIRTHDAY FELIX</span>
+              </div>
+              <div>2021-09-15</div>
+            </a></li>
+          <li><a href="#">
+              <div>
+                <span>453</span>
+                <span>Stray Kids(스트레이 키즈) &lt;NOEASY&gt; JEWEL CASE VER. ALBUM PREVIEW</span>
+              </div>
+              <div>2021-08-24</div>
+            </a></li>
+          <li><a href="#">
+              <div>
+                <span>452</span>
+                <span>Stray Kids(스트레이 키즈) &lt;NOEASY&gt; 발매 기념 VIDEO CALL EVENT [사운드웨이브]</span>
+              </div>
+              <div>2021-08-24</div>
             </a></li>
         </ul>
       </div>
