@@ -1,11 +1,11 @@
 <?php require_once "head.php"; ?>
 <div class="artist-page">
   <div class="site-wrap">
-    <div class="artist flex justify-center">
-      <div class="artist__bg relative">
-        <div class="artist__title absolute">ARTIST</div>
-      </div>
+    <div class="artist relative">
+      <div class="title absolute">ARTIST</div>
+      <img class="bg absolute" src="resource/img/artist_bg.png">
     </div>
+      </div>
     <div class="artist__list">
       <div class="list-1 flex justify-center">
         <a href="artist_skz.ssg.php" class="relative">

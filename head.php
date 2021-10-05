@@ -26,8 +26,8 @@
   <!-- 스와이퍼 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js">
-    <!-- light box 
-    -->
+  
+  <!-- light box -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 
@@ -41,7 +41,7 @@
   <link rel="stylesheet" href="resource/common.css">
 </head>
 
-<body>
+<body class="<?=$pagecode == "home" ? "" : "bg__navy"?>">
   <header class="top-bar relative <?=$pagecode == "home" ? "" : "sub-page__top-bar"?>">
     <div class="wrap flex h-full">
       <a class="flex self-center cursor-pointer" href="index.ssg.php">

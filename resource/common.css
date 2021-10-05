@@ -55,7 +55,7 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
 
 
-/* 커서 */
+/* 커서
 body {
   cursor: url(img/cursor.png), auto !important;
 }
@@ -99,16 +99,21 @@ body {
   letter-spacing: 1px;
 }
 
+body.bg__navy {
+  background-color: #081B2B;
+  color:#ddd;
+}
+
 /* 탑바 */
 .top-bar {
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   width: 1920px;
   height: 100px;
   top: 0;
   left: 0;
   padding: 0 320px;
-  color: #fff;
+  color:#fff;
 }
 
 .sub-page__top-bar {
@@ -199,7 +204,7 @@ body {
   align-items: center;
   position: relative;
   font-size: 14px;
-  color: #fff;
+  color:#ddd;
   margin-left:10px;
 }
 
@@ -250,7 +255,7 @@ body {
 .img-list .img-title {
   position: absolute;
   z-index: 100;
-  color:#000;
+  color:#fff;
   top:370px;
   left:320px;
 }
@@ -271,7 +276,7 @@ body {
 
 .t3 {
   font-size: 20px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   width:200px;
   height:40px;
   display: flex;
@@ -282,24 +287,30 @@ body {
 
 .t3:hover {
   background-color: #081B2B;
+  border: 1px solid #081B2B;
   color:#fff;
 }
 
 /* 서브페이지-아티스트 */
-.artist__bg {
-  margin-top:150px;
-  background-image: url(img/artist_title.png);
-  width: 624px;
-  height: 234px;
-  background-size: contain;
+.artist {
+  margin-top:100px;
+  width: 1280px;
+  height:251px;
+  margin-bottom: 100px;
 }
 
-.artist__title {
+.bg {
+  background-image: url(resource/img/artist_bg.png);
+  background-size: contain;
+  bottom: 0;
+}
+
+.title {
   font-family: 'Bebas Neue';
   font-size: 40px;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top:110px;
+  left:50%;
+  transform: translateX(-50%);
 }
 
 .artist__list {
@@ -332,17 +343,43 @@ body {
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color:#fff;
   font-size: 30px;
 }
 
 /* 서브페이지-아티스트-스키즈 */
+.artist__intro {
+  margin-top:100px;
+  height:488px;
+}
+
+.artist__player {
+  width: 1280px;
+  height: 251px;
+  top:100px;
+}
+
+.artist__title {
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  top: 210px;
+  left: 475px;
+}
+
+.artist__title-ko {
+  top:284px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .artist__img {
-  margin-top:-220px;
+  z-index: -1;
+  top:-220px;
   width: 450px;
   height: 450px;
   animation: rotate_image 15s linear infinite;
   transform-origin: 50% 50%;
+  margin-right:210px;
 }
 
 @keyframes rotate_image{
@@ -351,26 +388,31 @@ body {
   }
 }
 
+.artist__explain {
+  font-family: 'Roboto', sans-serif;
+  margin-top:33px;
+  width:619px;
+  height:215px;
+  line-height: 32px;
+}
+
+.artist__sns {
+  margin-top:30px;
+}
+
+.artist__sns > a > img {
+  display: block;
+  width: 30px;
+  height:30px;
+  margin-right:20px;
+}
+
 .artist_content > div {
   margin-top:120px;
 }
 
 .artist_content > div:last-child {
-  margin-bottom: 200px;
-}
-
-.artist_content > div > div {
-  font-family: 'Roboto', sans-serif;
-  font-size:18px;
-  line-height: 30px;
-}
-
-.member-list{
-  font-family: 'Roboto', sans-serif;
-}
-
-.member-list > li > a:not(:last-child) {
-  margin-right:40px;
+  margin-bottom: 150px;
 }
 
 .artist_content > div > div:first-child {
@@ -379,6 +421,27 @@ body {
   padding-bottom:40px;
 }
 
+.artist_content > div > ul {
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  line-height: 30px;
+}
+
+.member-list{
+  font-family: 'Roboto', sans-serif;
+}
+.member-list > li > a:not(:last-child) {
+  margin-right:40px;
+}
+
+.member-list > li > a > div {
+  margin-left: 12px;
+}
+
+.member-list > li > a > div:not(:last-child) {
+  font-weight: bold;
+  margin-top:10px;
+}
 
 .release-list > li:not(:last-child) {
   margin-right:20px;
@@ -392,7 +455,7 @@ body {
   width: 990px;
   border-width: 2px 0 2px 0;
   border-style: solid;
-  border-color: #000;
+  border-color: #fff;
 }
 
 .con-4 > ul > li {
@@ -402,7 +465,7 @@ body {
 .con-4 > ul > li:not(:last-child){
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-color: #000;
+  border-color: #fff;
 }
 
 .notice-list {
@@ -416,6 +479,7 @@ body {
 
 .notice-list div {
   margin-left: 40px;
+  font-size: 16px;
 }
 
 .notice-list div > span {
