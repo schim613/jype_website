@@ -10,35 +10,35 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            <a href="#">
+            <a href="artist_skz.ssg.php">
               <div class="img-gd"></div>
               <img src="resource/img/btn_play.png" alt="" class="btn_play">
               <img src="resource/img/img_itzy.png" alt="">
             </a>
           </div>
           <div class="swiper-slide">
-            <a href="#">
+            <a href="artist_skz.ssg.php">
               <div class="img-gd"></div>
               <img src="resource/img/btn_play.png" alt="" class="btn_play">
               <img src="resource/img/img_skz.png" alt="">
             </a>
           </div>
           <div class="swiper-slide">
-            <a href="#">
+            <a href="artist_skz.ssg.php">
               <div class="img-gd"></div>
               <img src="resource/img/btn_play.png" alt="" class="btn_play">
               <img src="resource/img/img_twice.png" alt="">
             </a>
           </div>
           <div class="swiper-slide">
-            <a href="#">
+            <a href="artist_skz.ssg.php">
               <div class="img-gd"></div>
               <img src="resource/img/btn_play.png" alt="" class="btn_play">
               <img src="resource/img/img_day6.png" alt="">
             </a>
           </div>
           <div class="swiper-slide">
-            <a href="#">
+            <a href="artist_skz.ssg.php">
               <div class="img-title">
                 <div class="t1">JYP 엔터테인먼트와 새로운 가치를 함께<br>만들어갈 인재를 기다립니다.</div>
                 <div class="t2">LEADER IN ENTERTAINMENT</div>
